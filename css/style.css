@@ -1,0 +1,57 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+
+.body {
+    font-family: 'Lato', sans-serif;
+    background-image: linear-gradient(to right top, #ffffff, #dddddd, #bbbbbb, #9b9b9b, #7c7c7c);
+}
+
+.body--dark {
+    background-image: linear-gradient(to right top, #000000, #282727, #4b4949, #716e6e, #9a9696);
+    color: #ffffff;
+}
+
+.picture {
+    max-width: 300px;
+    display: flex;
+    align-self: center;
+    margin: 10px auto;
+    border-radius: 15px;
+}
+
+.js-noImage {
+    display: none;
+}
+
+.button {
+    margin: 10px;
+    padding: 10px;
+    border-style: groove;
+    border-radius: 10px;
+    font-size: larger;
+}
+
+.button_container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.heading {
+    border: 10px groove gray;
+    border-radius: 10px;
+    background-color: #929292;
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+
