@@ -10,7 +10,7 @@ const themeName = document.querySelector(".theme");
 button.addEventListener("click", () => {
     body.classList.toggle("body--dark");
 
-   themeName.innerText = body.classList.contains("body--dark") ? "jasny" : "ciemny";  
+    themeName.innerText = body.classList.contains("body--dark") ? "jasny" : "ciemny";
 
 });
 
@@ -24,6 +24,6 @@ pictureButton.addEventListener("click", () => {
 
     pictureToggle.innerText = picture.classList.contains("js-noImage") ? "Pokaż" : "Ukryj";
 
-    
+
 });
 
