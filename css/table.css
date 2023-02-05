@@ -21,9 +21,14 @@
     padding: 10px;
     margin: 10px;
     text-align: center;
-    
-    
+
 }
+  
+.table_cell--dark.table_cell--dark {
+color: black;
+    }
+    
+
 
 .table_header {
     background-color: green;
