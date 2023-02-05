@@ -17,7 +17,7 @@ button.addEventListener("click", () => {
 
 const pictureButton = document.querySelector(".js-pictureButton");
 const picture = document.querySelector(".js-image");
-const pictureToggle = document.querySelector(".pictureToggle");
+const pictureToggle = document.querySelector(".js-pictureToggle");
 
 pictureButton.addEventListener("click", () => {
     picture.classList.toggle("js-noImage");

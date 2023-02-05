@@ -21,16 +21,18 @@
     padding: 10px;
     margin: 10px;
     text-align: center;
+  
+
 
 }
 
 .table__cell--dark {
-    color: black;
+    color: black
 }
 
 
 
-.table__header {
+.table__cell--header {
     background-color: green;
     border: 2px solid black;
 }
