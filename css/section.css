@@ -3,7 +3,7 @@
     padding: 10px;
 }
 
-.heading {
+.section__header {
     border: 10px groove gray;
     border-radius: 10px;
     background-color: #929292;
@@ -12,11 +12,23 @@
 
 }
 
-.listItem {
+.list__item {
     text-decoration: none;
     color: currentColor;
 }
 
-.listItem:hover {
+.list__item:hover {
     text-decoration: underline ;
+}
+
+.section__picture {
+    max-width: 300px;
+    display: flex;
+    align-self: center;
+    margin: 10px auto;
+    border-radius: 15px;
+}
+
+.js-noImage {
+    display: none;
 }

@@ -20,24 +20,24 @@
 
 <body class="js-body body">
     <header>
-        <h1 class="heading">Maciej Pałubski - Informacje</h1>
+        <h1 class="header">Maciej Pałubski - Informacje</h1>
         <nav class="nav">
-            <ul class="nav_list">
-                <li class="nav_listItem"><a class="nav_link" href=#o-mnie>O mnie</a></li>
-                <li class="nav_listItem"><a class="nav_link" href=#praca>Praca</a></li>
-                <li class="nav_listItem"><a class="nav_link" href=#zainteresowania>Zainteresowania</a></li>
-                <li class="nav_listItem"><a class="nav_link" href=#plany-na-przyszlosc>Plany na przyszłość</a></li>
+            <ul class="nav__list">
+                <li class="nav__listItem"><a class="nav__link" href=#o-mnie>O mnie</a></li>
+                <li class="nav__listItem"><a class="nav__link" href=#praca>Praca</a></li>
+                <li class="nav__listItem"><a class="nav__link" href=#zainteresowania>Zainteresowania</a></li>
+                <li class="nav__listItem"><a class="nav__link" href=#plany-na-przyszlosc>Plany na przyszłość</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section id="o-mnie">
-            <h2 class="heading">O mnie</h2>
-            <img class="picture js-image" src="images/Maciek.jpg" alt="Zdjęcie Macieja Pałubskiego">
-            <div class="button_container">
+        <section class="section" id="o-mnie">
+            <h2 class="section__header">O mnie</h2>
+            <img class="section__picture js-image" src="images/Maciek.jpg" alt="Zdjęcie Macieja Pałubskiego">
+            <div class="button__container">
                 <button class="js-pictureButton button"><span class="pictureToggle">Ukryj</span> zdjęcie</button>
             </div>
-            <p class="section">Urodziłem się 24 października 1995r. w Lublinie. Mieszkałem tam kilka lat. Następnie
+            <p>Urodziłem się 24 października 1995r. w Lublinie. Mieszkałem tam kilka lat. Następnie
                 przeprowadziliśmy się do
                 Bychawy gdzie ukończyłem szkołę podstawową. W połowie gimnazjum przeprowadziliśmy się do Myśliborza w
                 województwie zachodnio-pomorskim gdzie dokończyłem naukę a następnie ukończyłem technikum budowlane.
@@ -45,69 +45,69 @@
                 Lubelskiej. Niestety studiów nie ukończyłem.</p>
         </section>
 
-        <section id="praca">
-            <h2 class="heading">Praca</h2>
-            <p class="section">Pierwszą pracę podjąłem w firmie produkującej wiązki elektryczne. Było to jednak zajęcie
+        <section class="section" id="praca">
+            <h2 class="section__header">Praca</h2>
+            <p>Pierwszą pracę podjąłem w firmie produkującej wiązki elektryczne. Było to jednak zajęcie
                 tymczasowe i nie
                 trwało to długo. Następnie próbowałem sił w hydraulice lecz to także nie było dla mnie. Finalnie pracuję
                 jako monter stolarki aluminiowej. Teraz pomyślałem sobie <em>czas to zmienić</em> i rozpocząłem kurs
                 YouCode.</p>
         </section>
 
-        <section id="zainteresowania">
-            <h2 class="heading">Zainteresowania</h2>
-            <p class="section">Interesuję się motoryzacją zarówno nową jak i zabytkową. Lubię podróżować wraz z żoną i
+        <section class="section" id="zainteresowania">
+            <h2 class="section__header">Zainteresowania</h2>
+            <p>Interesuję się motoryzacją zarówno nową jak i zabytkową. Lubię podróżować wraz z żoną i
                 córką, <b>szczególnie w Bieszczady które pokochaliśmy od pierwszego wyjazdu.</b></p>
             <ul>
                 <li><strong>Najbardziej polecam odwiedzić:</strong> (otwierają się w nowej karcie)
                     <ul>
-                        <li><a target="_blank" rel="norefferer noopener" class="listItem" href="https://pl.wikipedia.org/wiki/Po%C5%82onina_Cary%C5%84ska">Połonina Caryńska</a></li>
-                        <li><a target="_blank" rel="norefferer noopener" class="listItem" href="https://pl.wikipedia.org/wiki/Po%C5%82onina_Wetli%C5%84ska">Połonina Wetlińska</a></li>
-                        <li><a target="_blank" rel="norefferer noopener" class="listItem" href="https://pl.wikipedia.org/wiki/Halicz_(g%C3%B3ra)">Halicz</a></li>
-                        <li><a target="_blank" rel="norefferer noopener" class="listItem" href="https://pl.wikipedia.org/wiki/Bukowe_Berdo">Bukowe Berdo</a></li>
+                        <li><a target="_blank" rel="norefferer noopener" class="list__item" href="https://pl.wikipedia.org/wiki/Po%C5%82onina_Cary%C5%84ska">Połonina Caryńska</a></li>
+                        <li><a target="_blank" rel="norefferer noopener" class="list__item" href="https://pl.wikipedia.org/wiki/Po%C5%82onina_Wetli%C5%84ska">Połonina Wetlińska</a></li>
+                        <li><a target="_blank" rel="norefferer noopener" class="list__item" href="https://pl.wikipedia.org/wiki/Halicz_(g%C3%B3ra)">Halicz</a></li>
+                        <li><a target="_blank" rel="norefferer noopener" class="list__item" href="https://pl.wikipedia.org/wiki/Bukowe_Berdo">Bukowe Berdo</a></li>
                     </ul>
                 </li>
             </ul>
-            <div class="">
+            <div class="table__container">
                 <table class="table">
-                    <caption class="table_caption">Moje posiadane pojazdy</caption>
-                    <tr class="table_row">
-                        <th class="table_header table_cell" scope="col">Marka </th>
-                        <th class="table_header table_cell" scope="col">Model</th>
-                        <th class="table_header table_cell" scope="col">Rok produkcji</th>
-                        <th class="table_header table_cell" scope="col">Silnik</th>
+                    <caption class="table__caption">Moje posiadane pojazdy</caption>
+                    <tr class="table__row">
+                        <th class="table__header table__cell" scope="col">Marka </th>
+                        <th class="table__header table__cell" scope="col">Model</th>
+                        <th class="table__header table__cell" scope="col">Rok produkcji</th>
+                        <th class="table__header table__cell" scope="col">Silnik</th>
                     </tr>
-                    <tr class="table_row">
-                        <th class="table_header table_cell" scope="row">Subaru</th>
-                        <td class="table_cell table_cell--dark">Outback</td>
-                        <td class="table_cell table_cell--dark">2004</td>
-                        <td class="table_cell table_cell--dark">2457cm³</td>
+                    <tr class="table__row">
+                        <th class="table__header table__cell" scope="row">Subaru</th>
+                        <td class="table__cell table__cell--dark">Outback</td>
+                        <td class="table__cell table__cell--dark">2004</td>
+                        <td class="table__cell table__cell--dark">2457cm³</td>
                     </tr>
-                    <tr class="table_row">
-                        <th class="table_header table_cell" scope="row">Lexus</th>
-                        <td class="table_cell table_cell--dark">IS 200</td>
-                        <td class="table_cell table_cell--dark">1999</td>
-                        <td class="table_cell table_cell--dark">1988cm³</td>
+                    <tr class="table__row">
+                        <th class="table__header table__cell" scope="row">Lexus</th>
+                        <td class="table__cell table__cell--dark">IS 200</td>
+                        <td class="table__cell table__cell--dark">1999</td>
+                        <td class="table__cell table__cell--dark">1988cm³</td>
                     </tr>
-                    <tr class="table_row">
-                        <th class="table_header table_cell" scope="row">KTM</th>
-                        <td class="table_cell table_cell--dark">LC2</td>
-                        <td class="table_cell table_cell--dark">1996</td>
-                        <td class="table_cell table_cell--dark" rowspan="2">125cm³</td>
+                    <tr class="table__row">
+                        <th class="table__header table__cell" scope="row">KTM</th>
+                        <td class="table__cell table__cell--dark">LC2</td>
+                        <td class="table__cell table__cell--dark">1996</td>
+                        <td class="table__cell table__cell--dark" rowspan="2">125cm³</td>
                     </tr>
-                    <tr class="table_row">
-                        <th class="table_header table_cell" scope="row">WSK</th>
-                        <td class="table_cell table_cell--dark">Gil 125</td>
-                        <td class="table_cell table_cell--dark">1976</td>
+                    <tr class="table__row">
+                        <th class="table__header table__cell" scope="row">WSK</th>
+                        <td class="table__cell table__cell--dark">Gil 125</td>
+                        <td class="table__cell table__cell--dark">1976</td>
 
                     </tr>
                 </table>
             </div>
 
         </section>
-        <section id="plany-na-przyszlosc">
-            <h2 class="heading">Plany na przyszłość</h2>
-            <p class="section">Aktualnie planuję ukończyć ten kurs i zostać <i>Frontend Developerem</i>. Pragnę mieć
+        <section class="section" id="plany-na-przyszlosc">
+            <h2 class="section__header">Plany na przyszłość</h2>
+            <p>Aktualnie planuję ukończyć ten kurs i zostać <i>Frontend Developerem</i>. Pragnę mieć
                 więcej
                 czasu dla
                 rodziny oraz pracę która da mi satysfakcję.</p>
@@ -117,8 +117,8 @@
         <button class="js-themeButton button">Włącz <span class="theme">ciemny</span> motyw.</button>
     </main>
 
-    <footer>
-        <p class="footer">
+    <footer class="footer">
+        <p class="footer__paragraph">
             © Maciej Pałubski Copyright 2077
         </p>
     </footer>

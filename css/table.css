@@ -1,4 +1,4 @@
-.table_container {
+.table__container {
     overflow-x: auto;
 }
 
@@ -11,12 +11,12 @@
 
 }
 
-.table_caption {
+.table__caption {
     font-weight: 700;
     font-size: 20px;
 }
 
-.table_cell {
+.table__cell {
     border: 1px solid black;
     padding: 10px;
     margin: 10px;
@@ -24,28 +24,28 @@
 
 }
 
-.table_cell--dark.table_cell--dark {
+.table__cell--dark {
     color: black;
 }
 
 
 
-.table_header {
+.table__header {
     background-color: green;
     border: 2px solid black;
 }
 
-.table_row {
+.table__row {
     background-color: #eee;
 }
 
 
 
-.table_row:nth-child(even) {
+.table__row:nth-child(even) {
     background-color: #ddd;
 
 }
 
-.table_row:hover {
+.table__row:hover {
     background-color: #a5a5a5;
 }
