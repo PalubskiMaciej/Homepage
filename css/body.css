@@ -35,7 +35,20 @@
     border-style: solid;
     border-radius: 10px;
     font-size: larger;
+
 }
+
+button:hover {
+    outline: 1px solid black;
+    background-color: #9e9e9e;
+}
+
+button:focus {
+    outline: 1px solid black;
+    background-color: #7c7c7c;
+
+}
+
 
 .button_container {
     display: flex;

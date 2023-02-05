@@ -15,7 +15,10 @@
     border-radius: 10px;
     background-color: #dddddd;
 
+}
 
+.nav_listItem:hover {
+    background-color: rgb(140, 140, 140);
 }
 
 .nav_link {
@@ -24,4 +27,3 @@
     font-weight: 700;
     color: currentColor;
 }
-
