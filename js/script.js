@@ -1,7 +1,7 @@
 console.log("Hello World!");
 
 
-const button = document.querySelector(".js-button");
+const button = document.querySelector(".js-themeButton");
 const body = document.querySelector(".js-body");
 const themeName = document.querySelector(".theme");
 
@@ -15,7 +15,7 @@ button.addEventListener("click", () => {
 });
 
 
-const pictureButton = document.querySelector(".js-picture_button");
+const pictureButton = document.querySelector(".js-pictureButton");
 const picture = document.querySelector(".js-image");
 const pictureToggle = document.querySelector(".pictureToggle");
 

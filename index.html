@@ -4,8 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=	, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/nav.css" rel="stylesheet">
+    <link href="css/body.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
     <script defer src="js/script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,35 +20,37 @@
 <body class="js-body body">
     <header>
         <h1 class="heading">Maciej Pałubski - Informacje</h1>
-        <ul>
-            <li><a href=#first-section>O mnie</a></li>
-            <li><a href=#sectond-section>Praca</a></li>
-            <li><a href=#third-section>Zainteresowania</a></li>
-            <li><a href=#fourth-section>Plany na przyszłość</a>ć</li>
-        </ul>
+        <nav class="nav">
+            <ul class="nav_list">
+                <li class="nav_listItem"><a class="nav_link" href=#first-section>O mnie</a></li>
+                <li class="nav_listItem"><a class="nav_link" href=#second-section>Praca</a></li>
+                <li class="nav_listItem"><a class="nav_link" href=#third-section>Zainteresowania</a></li>
+                <li class="nav_listItem"><a class="nav_link" href=#fourth-section>Plany na przyszłość</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
         <section id="first-section">
             <h2 class="heading">O mnie</h2>
-        <img class="picture js-image" src="images/Maciek.jpg" alt="Zdjęcie Macieja Pałubskiego">
-        <div class="button_container">
-            <button class="js-picture_button button"><span class="pictureToggle">Ukryj</span> zdjęcie</button>
-        </div>
-        <p class="section">Urodziłem się 24 października 1995r. w Lublinie. Mieszkałem tam kilka lat. Następnie
-            przeprowadziliśmy się do
-            Bychawy gdzie ukończyłem szkołę podstawową. W połowie gimnazjum przeprowadziliśmy się do Myśliborza w
-            województwie zachodnio-pomorskim gdzie dokończyłem naukę a następnie ukończyłem technikum budowlane.
-            Finalnie wróciłem do Lublina na studia, gdzie uczęszczałem na kierunek budownictwo na Politechnice
-            Lubelskiej. Niestety studiów nie ukończyłem.</p>
+            <img class="picture js-image" src="images/Maciek.jpg" alt="Zdjęcie Macieja Pałubskiego">
+            <div class="button_container">
+                <button class="js-pictureButton button"><span class="pictureToggle">Ukryj</span> zdjęcie</button>
+            </div>
+            <p class="section">Urodziłem się 24 października 1995r. w Lublinie. Mieszkałem tam kilka lat. Następnie
+                przeprowadziliśmy się do
+                Bychawy gdzie ukończyłem szkołę podstawową. W połowie gimnazjum przeprowadziliśmy się do Myśliborza w
+                województwie zachodnio-pomorskim gdzie dokończyłem naukę a następnie ukończyłem technikum budowlane.
+                Finalnie wróciłem do Lublina na studia, gdzie uczęszczałem na kierunek budownictwo na Politechnice
+                Lubelskiej. Niestety studiów nie ukończyłem.</p>
         </section>
 
-        <section id="sectond-section">
+        <section id="second-section">
             <h2 class="heading">Praca</h2>
-        <p class="section">Pierwszą pracę podjąłem w firmie produkującej wiązki elektryczne. Było to jednak zajęcie
-            tymczasowe i nie
-            trwało to długo. Następnie próbowałem sił w hydraulice lecz to także nie było dla mnie. Finalnie pracuję
-            jako monter stolarki aluminiowej. Teraz pomyślałem sobie <em>czas to zmienić</em> i rozpocząłem kurs
-            YouCode.</p>
+            <p class="section">Pierwszą pracę podjąłem w firmie produkującej wiązki elektryczne. Było to jednak zajęcie
+                tymczasowe i nie
+                trwało to długo. Następnie próbowałem sił w hydraulice lecz to także nie było dla mnie. Finalnie pracuję
+                jako monter stolarki aluminiowej. Teraz pomyślałem sobie <em>czas to zmienić</em> i rozpocząłem kurs
+                YouCode.</p>
         </section>
 
         <section id="third-section">
@@ -72,8 +77,14 @@
         </section>
 
 
-        <button class="js-button button">Włącz <span class="theme">ciemny</span> motyw.</button>
+        <button class="js-themeButton button">Włącz <span class="theme">ciemny</span> motyw.</button>
     </main>
+
+    <footer>
+        <p class="footer">
+            ©  Maciej Pałubski Copyright 2077
+        </p>
+    </footer>
 
 </body>
 

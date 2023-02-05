@@ -1,0 +1,44 @@
+.body {
+    max-width: 1000px;
+    margin: 100px auto;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.4;
+    background-image: linear-gradient(to right top, #ffffff, #dddddd, #bbbbbb, #9b9b9b, #7c7c7c);
+}
+
+.body--dark {
+    background-image: linear-gradient(to right top, #000000, #282727, #4b4949, #716e6e, #9a9696);
+    color: #ffffff;
+}
+
+.footer {
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.picture {
+    max-width: 300px;
+    display: flex;
+    align-self: center;
+    margin: 10px auto;
+    border-radius: 15px;
+}
+
+.js-noImage {
+    display: none;
+}
+
+.button {
+    margin: 10px;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 10px;
+    font-size: larger;
+}
+
+.button_container {
+    display: flex;
+    justify-content: center;
+
+}
