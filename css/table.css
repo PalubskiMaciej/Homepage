@@ -1,0 +1,46 @@
+.table_container {
+    overflow-x: auto;
+}
+
+.table {
+    border-collapse: collapse;
+    margin: 10px auto;
+    width: 400px;
+    padding: 20px;
+    
+    
+}
+
+.table_caption {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.table_cell {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    
+    
+}
+
+.table_header {
+    background-color: green;
+    border: 2px solid black;
+}
+
+.table_row {
+    background-color: #eee;
+}
+
+
+
+.table_row:nth-child(even) {
+    background-color: #ddd;
+
+}
+
+.table_row:hover {
+    background-color: #a5a5a5;
+}
