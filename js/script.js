@@ -1,29 +1,33 @@
-console.log("Hello World!");
+{
+    const welcome = () => {
+        console.log("Hello World!");
+    }
 
+    const onClickThemeToggle = () => {
+        const body = document.querySelector(".js-body");
+        const themeName = document.querySelector(".theme");
+        body.classList.toggle("body--dark");
+        themeName.innerText = body.classList.contains("body--dark") ? "jasny" : "ciemny";
+    }
 
-const button = document.querySelector(".js-themeButton");
-const body = document.querySelector(".js-body");
-const themeName = document.querySelector(".theme");
+    const onClickPictureToggle = () => {
 
+        const picture = document.querySelector(".js-image");
+        const pictureToggle = document.querySelector(".js-pictureToggle");
+        picture.classList.toggle("js-noImage");
+        pictureToggle.innerText = picture.classList.contains("js-noImage") ? "Pokaż" : "Ukryj";
 
+    }
 
-button.addEventListener("click", () => {
-    body.classList.toggle("body--dark");
+    const init = () => {
+        const pictureButton = document.querySelector(".js-pictureButton");
+        pictureButton.addEventListener("click", onClickPictureToggle);
 
-    themeName.innerText = body.classList.contains("body--dark") ? "jasny" : "ciemny";
+        const button = document.querySelector(".js-themeButton");
+        button.addEventListener("click", onClickThemeToggle);
 
-});
+        welcome();
+    }
 
-
-const pictureButton = document.querySelector(".js-pictureButton");
-const picture = document.querySelector(".js-image");
-const pictureToggle = document.querySelector(".js-pictureToggle");
-
-pictureButton.addEventListener("click", () => {
-    picture.classList.toggle("js-noImage");
-
-    pictureToggle.innerText = picture.classList.contains("js-noImage") ? "Pokaż" : "Ukryj";
-
-
-});
-
+    init();
+}
