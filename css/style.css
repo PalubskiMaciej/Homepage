@@ -1,0 +1,22 @@
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+
+  .body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px auto;
+    max-width: 800px;
+    padding: 20px;
+    background: linear-gradient(90deg, rgba(135,135,135,1) 0%, rgba(180,180,180,0.829656862745098) 50%, rgba(231,231,231,1) 100%);
+
+  }
+
+  .body--dark {
+    color: white;
+    background: linear-gradient(90deg, rgba(11,11,11,1) 0%, rgba(42,42,42,0.829656862745098) 50%, rgba(94,94,94,1) 100%);
+  }
