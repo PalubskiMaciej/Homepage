@@ -15,6 +15,7 @@
 
   const backgroundToggle = () => {
     const body = document.querySelector(".js-body");
+    const header = document.querySelector(".js-header");
     const toggleBackgroundButton = document.querySelector(
       ".js-toggleBackground"
     );
@@ -22,6 +23,7 @@
 
     toggleBackgroundButton.addEventListener("click", () => {
       body.classList.toggle("body--dark");
+      header.classList.toggle("header--dark");
       themeName.innerText = body.classList.contains("body--dark")
         ? "jasne"
         : "ciemne";

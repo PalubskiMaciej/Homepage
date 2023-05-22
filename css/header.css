@@ -1,0 +1,7 @@
+.header {
+    border-bottom: 2px solid black;
+}
+
+.header--dark {
+    border-bottom: 2px solid white;
+}
