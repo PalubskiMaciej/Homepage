@@ -11,6 +11,7 @@
   <link href="css/footer.css" rel="stylesheet" />
   <link href="css/header.css" rel="stylesheet" />
   <link href="css/navigation.css" rel="stylesheet" />
+  <link href="css/table.css" rel="stylesheet" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400&display=swap"
@@ -83,6 +84,54 @@
         <li>Połonina Wetlińska</li>
         <li>Bukowe Berdo</li>
       </ul>
+
+      <div class="table__container">
+        <table class="table">
+          <caption class="table__caption">Wszystkie pojazdy które miałem do tej pory</caption>
+          <tr>
+            <th scope="col" class="tableCell table__header" table__header">Marka</th>
+            <th scope="col" class="tableCell table__header">Model</th>
+            <th scope="col" class="tableCell table__header">Pojemność silnika</th>
+            <th scope="col" class="tableCell table__header">Rok produkcji</th>
+          </tr>
+          <tr>
+            <th class="tableCell table__header">Mercedes</th>
+            <td class="tableCell">C220 W202</td>
+            <td class="tableCell">1994</td>
+            <td class="tableCell">2200cm3</td>
+          </tr>
+          <tr>
+            <th class="tableCell table__header">Honda</th>
+            <td class="tableCell">Accord</td>
+            <td rowspan="2" class="tableCell">1996</td>
+            <td class="tableCell">1850cm3</td>
+          </tr>
+          <tr>
+            <th class="tableCell table__header">KTM</th>
+            <td class="tableCell">LC2</td>
+            <td class="tableCell">125cm3</td>
+          </tr>
+          <tr>
+            <th class="tableCell table__header">Lexus</th>
+            <td class="tableCell">IS 200</td>
+            <td class="tableCell">1999</td>
+            <td class="tableCell">1988cm3</td>
+          </tr>
+          <tr>
+            <th class="tableCell table__header">Subaru</th>
+            <td class="tableCell">Outback 3</td>
+            <td class="tableCell">2004</td>
+            <td class="tableCell">2457cm3</td>
+          </tr>
+
+          <tr>
+            <th scope="row" class="tableCell table__header">WSK</th>
+            <td class="tableCell">Gil 125</td>
+            <td class="tableCell">1976</td>
+            <td class="tableCell">123cm3</td>
+          </tr>
+        </table>
+      </div>
     </section>
 
     <section id="plany-na-przyszlosc" class="section">

@@ -1,0 +1,27 @@
+.table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    box-shadow: 0px 0px 21px 8px #A6A3B7;
+}
+
+.table__container {
+    overflow-x: auto;
+}
+
+.table__caption {
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.tableCell {
+    border: 3px solid rgb(72, 72, 72);
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(224, 224, 224);
+    color: black;
+}
+
+.table__header.table__header {
+    background-color: rgb(47, 47, 47);
+    color: white;
+}
