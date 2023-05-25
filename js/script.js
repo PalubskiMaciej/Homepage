@@ -15,7 +15,6 @@
 
   const backgroundToggle = () => {
     const body = document.querySelector(".js-body");
-    const link = document.querySelectorAll(".js-list");
     const nav = document.querySelector(".js-nav");
     const toggleBackgroundButton = document.querySelector(
       ".js-toggleBackground"
