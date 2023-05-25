@@ -1,0 +1,40 @@
+.navigation {
+    border-bottom: 2px solid black;
+    color: white;
+}
+
+.navigation--dark {
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+.navigation__list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0px;
+}
+
+.navigation__listItem {
+    padding: 10px;
+    border: 3px solid gray;
+    border-radius: 10px;
+    background-color: #bbbbbb;
+    transition: 1s;
+}
+
+.navigation__link {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 5px;
+    color: black;
+
+}
+
+.navigation__listItem:hover {
+    transform: scale(1.2);
+}
+
+.navigation__link--dark {
+    color: white;
+}

@@ -37,6 +37,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.section__button:focus {
+    background-color: #929292;
+}
+
 .section__button:hover {
     cursor: pointer;
 }

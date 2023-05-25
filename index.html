@@ -10,6 +10,7 @@
   <link href="css/main.css" rel="stylesheet" />
   <link href="css/footer.css" rel="stylesheet" />
   <link href="css/header.css" rel="stylesheet" />
+  <link href="css/navigation.css" rel="stylesheet" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400&display=swap"
@@ -19,11 +20,23 @@
 
 <body class="body js-body">
   <header class="header js-header">
-    <h1 class="heading">Maciej Pałubski</h1>
+    <h1>Maciej Pałubski</h1>
   </header>
 
+  <nav class="navigation js-nav">
+    <ul class="navigation__list">
+      <li class="navigation__listItem"><a class="navigation__link" href="#o-mnie">O mnie</a></li>
+      <li class="navigation__listItem"><a class="navigation__link" href="#praca">Praca</a></li>
+      <li class="navigation__listItem"><a class="navigation__link" href="#zainteresowania">Zainteresowania</a>
+      </li>
+      <li class="navigation__listItem"><a class="navigation__link" href="#plany-na-przyszlosc">Plany na
+          przyszłość</a>
+      </li>
+    </ul>
+  </nav>
+
   <main class="main">
-    <section class="section">
+    <section id="o-mnie" class="section">
       <h2 class="section__heading">O mnie</h2>
       <div>
         <img class="section__image js-image" src="images/Maciek.jpg" alt="Maciej Pałubski" />
@@ -43,7 +56,7 @@
       </p>
     </section>
 
-    <section class="section">
+    <section id="praca" class="section">
       <h2 class="section__heading">Praca</h2>
       <p class="section__paragraph">
         Pierwszą pracę podjąłem w firmie produkującej wiązki elektryczne.
@@ -55,7 +68,7 @@
       </p>
     </section>
 
-    <section class="section">
+    <section id="zainteresowania" class="section">
       <h2 class="section__heading">Zainteresowania</h2>
       <p class="section__paragraph">
         Uwielbiam góry, <b>w szczególności Bieszczady</b>, gdzie jeździmy
@@ -72,7 +85,7 @@
       </ul>
     </section>
 
-    <section class="section">
+    <section id="plany-na-przyszlosc" class="section">
       <h2 class="section__heading">Plany na przyszłość</h2>
       <p class="section__paragraph">
         Aktualnie planuję ukończyć kurs YouCode i pracować jako
@@ -87,7 +100,7 @@
   </main>
 
   <footer class="footer">
-    <p class="footer__paragraph">Copyright © 2023</p>
+    <p>Copyright © 2023</p>
   </footer>
 </body>
 
