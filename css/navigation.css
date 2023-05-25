@@ -11,7 +11,7 @@
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding-left: 0px;
 }
 
@@ -27,6 +27,7 @@
     font-weight: 700;
     padding: 5px;
     color: currentColor;
+    text-align: center;
 
 }
 
