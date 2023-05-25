@@ -26,6 +26,16 @@
 
 }
 
+.list__link {
+    color: currentColor;
+    text-decoration: none;
+}
+
+.list__link:hover {
+    color: currentColor;
+    text-decoration: underline;
+}
+
 
 .section__button {
     padding: 10px;

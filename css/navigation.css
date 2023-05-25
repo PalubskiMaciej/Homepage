@@ -1,7 +1,7 @@
 .navigation {
     border-bottom: 2px solid black;
-    color: white;
 }
+
 
 .navigation--dark {
     border-bottom: 2px solid rgb(255, 255, 255);
@@ -17,9 +17,7 @@
 
 .navigation__listItem {
     padding: 10px;
-    border: 3px solid gray;
-    border-radius: 10px;
-    background-color: #bbbbbb;
+
     transition: 1s;
 }
 
@@ -28,7 +26,7 @@
     font-size: 20px;
     font-weight: 700;
     padding: 5px;
-    color: black;
+    color: currentColor;
 
 }
 
