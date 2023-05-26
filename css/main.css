@@ -4,12 +4,15 @@
     padding: 20px;
 }
 
-
 .main {
     padding: 20px;
 }
 
-.section__heading {
+.section {
+    padding: 10px;
+}
+
+.section__header {
     padding-left: 30px;
 }
 
@@ -23,7 +26,6 @@
 .section__paragraph {
     text-indent: 30px;
     line-height: 1.4;
-
 }
 
 .list__link {
@@ -35,7 +37,6 @@
     color: currentColor;
     text-decoration: underline;
 }
-
 
 .section__button {
     padding: 10px;

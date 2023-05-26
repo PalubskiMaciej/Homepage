@@ -23,7 +23,6 @@
 
     toggleBackgroundButton.addEventListener("click", () => {
       body.classList.toggle("body--dark");
-
       nav.classList.toggle("navigation--dark");
       themeName.innerText = body.classList.contains("body--dark")
         ? "jasne"
