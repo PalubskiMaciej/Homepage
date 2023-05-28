@@ -1,62 +1,52 @@
-.heading {
-    max-width: 800px;
-    text-align: center;
-    padding: 20px;
-}
-
-.main {
-    padding: 20px;
-}
-
 .section {
-    padding: 10px;
+  padding: 10px;
 }
 
 .section__header {
-    padding-left: 30px;
+  padding-left: 30px;
 }
 
 .section__image {
-    display: block;
-    max-width: 200px;
-    margin: 10px auto;
-    border-radius: 40px;
+  display: block;
+  max-width: 200px;
+  margin: 10px auto;
+  border-radius: 40px;
 }
 
 .section__paragraph {
-    text-indent: 30px;
-    line-height: 1.4;
+  text-indent: 30px;
+  line-height: 1.4;
 }
 
 .list__link {
-    color: currentColor;
-    text-decoration: none;
+  color: currentColor;
+  text-decoration: none;
 }
 
 .list__link:hover {
-    color: currentColor;
-    text-decoration: underline;
+  color: currentColor;
+  text-decoration: underline;
 }
 
 .section__button {
-    padding: 10px;
-    border: 3px solid gray;
-    border-radius: 10px;
-    background-color: #bbbbbb;
-    font-weight: 700;
-    box-shadow: 15px 10px 43px 1px #BFBFBF;
-    font-family: 'Montserrat', sans-serif;
+  padding: 10px;
+  border: 3px solid gray;
+  border-radius: 10px;
+  background-color: #bbbbbb;
+  font-weight: 700;
+  box-shadow: 15px 10px 43px 1px #BFBFBF;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .section__button:focus {
-    background-color: #929292;
+  background-color: #929292;
 }
 
 .section__button:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .section__button--image {
-    display: block;
-    margin: 10px auto;
+  display: block;
+  margin: 10px auto;
 }

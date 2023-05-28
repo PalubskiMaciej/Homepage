@@ -1,38 +1,38 @@
 .table {
-    border-collapse: collapse;
-    margin: 25px auto;
-    box-shadow: 0px 0px 21px 8px #A6A3B7;
+  border-collapse: collapse;
+  margin: 0 auto;
+
 }
 
 .table__container {
-    overflow-x: auto;
+  overflow-x: auto;
 }
 
 .table__caption {
-    margin-bottom: 10px;
-    font-weight: 700;
+  margin-bottom: 15px;
+  font-weight: 700;
 }
 
 .table__row {
-    background-color: white;
+  background-color: white;
 }
 
 .table__row:nth-child(even) {
-    background-color: #c3c3c3;
+  background-color: #c3c3c3;
 }
 
 .table__row:hover {
-    background-color: #a1a1a1;
+  background-color: #a1a1a1;
 }
 
 .table__cell {
-    border: 3px solid rgb(72, 72, 72);
-    text-align: center;
-    padding: 5px;
-    color: black;
+  border: 3px solid rgb(72, 72, 72);
+  text-align: center;
+  padding: 5px;
+  color: black;
 }
 
 .table__header {
-    background-color: rgb(47, 47, 47);
-    color: white;
+  background-color: rgb(47, 47, 47);
+  color: white;
 }
