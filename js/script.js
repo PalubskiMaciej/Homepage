@@ -3,37 +3,35 @@
     console.log("Hello World!");
   };
 
-  const pictureRemove = () => {
-    const button = document.querySelector(".js-button");
-    const picture = document.querySelector(".js-image");
+  const pictureRemove = (picture, pictureButton) => {
 
-    button.addEventListener("click", () => {
-      picture.remove();
-      button.remove();
-    });
+    picture.remove();
+    pictureButton.remove();
   };
 
-  const backgroundToggle = () => {
+  const toggleBackground = () => {
     const body = document.querySelector(".js-body");
     const nav = document.querySelector(".js-nav");
-    const toggleBackgroundButton = document.querySelector(
-      ".js-toggleBackground"
-    );
     const themeName = document.querySelector(".js-themeName");
 
-    toggleBackgroundButton.addEventListener("click", () => {
-      body.classList.toggle("body--dark");
-      nav.classList.toggle("navigation--dark");
-      themeName.innerText = body.classList.contains("body--dark")
-        ? "jasne"
-        : "ciemne";
-    });
+    body.classList.toggle("body--dark");
+    nav.classList.toggle("navigation--dark");
+    themeName.innerText = body.classList.contains("body--dark")
+      ? "jasne"
+      : "ciemne";
   };
 
   const init = () => {
-    pictureRemove();
+    const toggleBackgroundButton = document.querySelector(".js-toggleBackground");
+    toggleBackgroundButton.addEventListener("click", toggleBackground);
+
+    const picture = document.querySelector(".js-image");
+    const pictureButton = document.querySelector(".js-button");
+    pictureButton.addEventListener("click", () => {
+
+      pictureRemove(picture, pictureButton)
+    });
     welcome();
-    backgroundToggle();
   };
   init();
 }
